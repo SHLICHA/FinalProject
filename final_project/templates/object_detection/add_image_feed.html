@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block header %}{% endblock %}
+{% block title %}
+  Dashboard
+{% endblock %}
+{% block content %}
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 p-5">
+      <div class="card">
+        <div class="form-group row my-3 p-3 textarea">
+          <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Add Image</button><br>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
