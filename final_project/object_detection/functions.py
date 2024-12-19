@@ -54,7 +54,7 @@ def MNSSD_process_image(image_id):
 
         result, encoded_img = cv2.imencode('.jpg', img)
         if result:
-            content = ContentFile(encoded_img.tobytes(), f'processed_{image_feed.source_image.name}')
+            content = ContentFile(encoded_img.tobytes(), f'processed_images')
             image_feed.processed_image.save(content.name, content, save=True)
 
         return True

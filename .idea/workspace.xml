@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3429f65a-b318-46b4-ae32-beba1d023cee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/FinalProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/media/MobileNetSSD/mobilenet_iter_73000.caffemodel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/media/MobileNetSSD/mobilenet_ssd_deploy.prototxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/object_detection/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/object_detection/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/object_detection/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/includes/paginator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/object_detection/add_image_feed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/object_detection/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/object_detection/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/users/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/users/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/templates/users/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_project/users/forms.py" afterDir="false" />
+    <list default="true" id="3429f65a-b318-46b4-ae32-beba1d023cee" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/object_detection/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/object_detection/functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +14,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="shlicha" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SHLICHA"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SHLICHA/FinalProject.git",
+    "accountId": "7bf092ac-6929-495f-a915-8fd88083eea7"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2qDGYA9EBSLlZw41OEDn5WhpnUm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/SHLIC/UrbanProjects/FinalProject/final_project/templates/users",
@@ -82,6 +79,20 @@
       <option name="presentableId" value="Default" />
       <updated>1734189777204</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1734612676896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734612676896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
