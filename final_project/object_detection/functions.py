@@ -14,6 +14,7 @@ VOC_LABELS = [
 
 
 def MNSSD_process_image(image_id):
+    """Функция, использующая модель MobileNet SSD"""
     try:
         image_feed = Object.objects.get(id=image_id)
         image_path = image_feed.source_image.path

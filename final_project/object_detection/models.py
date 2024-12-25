@@ -4,6 +4,14 @@ from users.models import User, CHOISE_MODEL
 
 
 class Object(models.Model):
+    """Модель загружаемого изображения.
+    Поля:
+        user - пользователь, загрузивший изображение
+        model - модель ИИ, используемая для определения
+        pub_date - дата публикации изображения. Заполняется автоматически. А админ-панели не меняется
+        source_image - собственно само изображение
+        processed_image - изображение с указанными координатами и точностью определения
+    """
     user = models.ForeignKey(
         User,
         verbose_name='Пользователь',
@@ -38,6 +46,15 @@ class Object(models.Model):
 
 
 class DetectedObject(models.Model):
+    """
+    Модель, хранящая данные о случае определения
+    Поля:
+        model - используемая модель
+        original_image - используемое изображение
+        object_type - результат обнаружения. Хранит данные о том, что на изображении
+        confidence - уверенность. Степень уверенности ИИ в результате
+        location - координаты объекта
+    """
     model = models.CharField(
         verbose_name='Используемая модель',
         choices=CHOISE_MODEL

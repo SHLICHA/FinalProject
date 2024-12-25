@@ -5,7 +5,7 @@
 {% block content %}
 <div class="container py-5" align="center">
   <a href="add_object">Add Image</a><br>
-  {% for object in objects %}
+  {% for object in page_obj %}
   <div class="card mb-3">
     <div class="card-body">
         <div class="card-header">
@@ -31,5 +31,7 @@
     </div>
     {% endfor %}
   </div>
+
 </div>
+{% include 'includes/paginator.html' %}
 {% endblock %}

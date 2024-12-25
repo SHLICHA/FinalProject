@@ -1,3 +1,4 @@
+from django.core.paginator import Paginator
 from django.shortcuts import redirect, render, get_object_or_404
 from django.views.generic import TemplateView
 from django.contrib.auth.decorators import login_required
@@ -7,15 +8,22 @@ from .functions import MNSSD_process_image
 from .models import Object
 
 
+def paginator(request, posts, count):
+    pag_temp = Paginator(posts, count)
+    page_number = request.GET.get('page')
+    return pag_temp.get_page(page_number)
+
+
 class IndexView(TemplateView):
     template_name = 'object_detection/index.html'
 
 
 def get_dashboard(request):
     if request.user.is_authenticated:
-        objects = Object.objects.filter(user=request.user)
+        objects_list = Object.objects.filter(user=request.user)
+        page_obj = paginator(request, objects_list, 5)
         context = {
-            'objects': objects
+            'page_obj': page_obj,
         }
         return render(request, 'object_detection/dashboard.html', context)
     else:

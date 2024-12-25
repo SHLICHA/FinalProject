@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3429f65a-b318-46b4-ae32-beba1d023cee" name="Changes" comment="First commit">
+    <list default="true" id="3429f65a-b318-46b4-ae32-beba1d023cee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/final_project/media/original_images/ca8e9f0fae31b5e5e4f63e629c0aceea_3DGI3k5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/media/original_images/ca8e9f0fae31b5e5e4f63e629c0aceea_o1Ypl1b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/media/original_images/cat-g4e7c68f24_1920_tC9rk2f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/media/original_images/df9e551s-1920_4GYJ8aQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/media/processed_images/processed_images_CFl3wta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/media/processed_images/processed_images_IXIIJAS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/object_detection/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/object_detection/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/object_detection/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/object_detection/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/object_detection/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/object_detection/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/object_detection/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/object_detection/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/templates/object_detection/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/templates/object_detection/dashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,18 +31,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SHLICHA"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SHLICHA&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SHLICHA/FinalProject.git",
-    "accountId": "7bf092ac-6929-495f-a915-8fd88083eea7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SHLICHA/FinalProject.git&quot;,
+    &quot;accountId&quot;: &quot;7bf092ac-6929-495f-a915-8fd88083eea7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -44,15 +54,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/SHLIC/UrbanProjects/FinalProject/final_project/templates/users",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SHLIC/UrbanProjects/FinalProject/final_project/templates/users&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SHLIC\UrbanProjects\FinalProject\final_project\templates\users" />
@@ -87,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734612676896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1734613104291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734613104291</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
